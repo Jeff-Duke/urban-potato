@@ -1,5 +1,6 @@
 .dropdown-nav {
   background-color: grey;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   display: flex;
   flex-direction: row;
   height: 5em;
@@ -51,6 +52,7 @@ li:hover {
 
   .dropdown-menu {
     display: none;
+    left: 0;
     margin: 0;
     position: absolute;
     padding: 0;
@@ -61,10 +63,12 @@ li:hover {
 
   .dropdown-nav:hover .dropdown-menu {
     background-color: grey;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     display: inline-block; }
 
   .dropdown-nav:active .dropdown-menu {
     background-color: grey;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     display: inline-block; } }
 
 /*# sourceMappingURL=week1-nav.css.map */
