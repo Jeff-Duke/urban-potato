@@ -24,7 +24,7 @@
       height: 100%;
     }
     a {
-      color: white;
+      color: $color-blanched;
       font-family: $sans;
       text-decoration: none;
     }
@@ -38,7 +38,7 @@
 }
 
 li:hover {
-  background: red;
+  background: $color-red;
   height: 100%;
 }
 
@@ -52,7 +52,7 @@ li:hover {
   .dropdown-button {
     background-color: grey;
     border: none;
-    color: white;
+    color: $color-blanched;
     display: inline-block;
     font-family: $sans;
     font-size: 1.2em;
