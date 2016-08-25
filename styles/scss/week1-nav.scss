@@ -2,11 +2,11 @@
 @import '_fonts';
 
 .dropdown-nav {
-  list-style: none;
+  background-color: grey;
   display: flex;
   flex-direction: row;
   height: 5em;
-  background-color: grey;
+  list-style: none;
 }
 
 .dropdown-button {
@@ -14,25 +14,25 @@
 }
 
 .dropdown-menu {
-  list-style: none;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-around;
+  list-style: none;
   width: 80%;
     li {
       height: 100%;
     }
     a {
       color: white;
-      text-decoration: none;
       font-family: $sans;
+      text-decoration: none;
     }
 }
 
 .header-logo {
-  display: block;
   border-radius: 100%;
+  display: block;
   position: absolute;
   right: 25px;
 }
@@ -50,28 +50,30 @@ li:hover {
 
 @media (max-width: 450px) {
   .dropdown-button {
-    font-size: 1.2em;
     background-color: grey;
     border: none;
     color: white;
-    font-family: $sans;
     display: inline-block;
-    position: relative;
+    font-family: $sans;
+    font-size: 1.2em;
     left: 25px;
+    position: relative;
   }
 
   .dropdown-nav {
     position: relative;
-
   }
 
    .dropdown-menu {
-    position: absolute;
-    top: 100%;
     display: none;
     margin: 0;
-    width: 100%;
+    position: absolute;
     padding: 0;
+    top: 100%;
+    width: 100%;
+      li {
+        margin: 5px;
+      }
   }
 
   .dropdown-nav:hover .dropdown-menu {
