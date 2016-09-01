@@ -26,6 +26,7 @@
 .header-logo {
   border-radius: 100%;
   display: block;
+  margin-top: 3px;
   position: absolute;
   right: 25px; }
 
