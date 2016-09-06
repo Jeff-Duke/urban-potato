@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box; }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap; }
+
 .clearfix {
   overflow: auto;
   zoom: 1; }
