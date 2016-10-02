@@ -1,0 +1,34 @@
+.accordion, .accordion *, .accordion-aside {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.accordion-content {
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  background: #f7f7f7; }
+
+.accordion-title {
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  border-bottom: 1px solid #1a1a1a;
+  background: #333;
+  transition: all linear 0.15s;
+  font-size: 1.2em;
+  text-shadow: 0 1px 0 #1a1a1a;
+  color: #fff; }
+
+.accordion-title.active, .accordion-title:hover {
+  background: #4c4c4c;
+  text-decoration: none; }
+
+.accordion-contentn:last-child .accordion-title {
+  border-bottom: none; }
+
+.accordion-content {
+  padding: 15px;
+  display: none; }
+
+/*# sourceMappingURL=week3-accordion.css.map */

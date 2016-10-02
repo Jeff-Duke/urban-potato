@@ -22,6 +22,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px;
   height: 450px;
   width: 350px;
   background-color: white;
@@ -46,4 +47,8 @@ h3 {
   color: $color-notBlack;
   font-family: $sans;
   font-weight: bold;
+}
+
+.content-card:hover {
+  transform: scale(1.025);
 }
