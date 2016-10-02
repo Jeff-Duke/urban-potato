@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box; }
 
+.card-container {
+  display: flex;
+  flex-wrap: wrap; }
+
 .clearfix {
   overflow: auto;
   zoom: 1; }
@@ -11,6 +15,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px;
   height: 450px;
   width: 350px;
   background-color: white;
@@ -30,5 +35,8 @@ h3 {
   color: #313131;
   font-family: sans-serif;
   font-weight: bold; }
+
+.content-card:hover {
+  transform: scale(1.025); }
 
 /*# sourceMappingURL=week2-card.css.map */
